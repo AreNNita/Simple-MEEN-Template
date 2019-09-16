@@ -1,5 +1,5 @@
-# MEEN-Template
-Mongo-Express-EJS-Node Template.
+# Simple MEEN Template
+A Mongo-Express-EJS-Node Template.
 
 ## Description
 This project is a starting point for simple web apps, that use MVC as software design pattern, and is intended from little to medium projects that needs of fast implementation.
