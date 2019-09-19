@@ -149,7 +149,6 @@ app.get('/profile',
     });
   });
 
-
 // URLs to serve
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
