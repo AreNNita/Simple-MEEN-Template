@@ -20,6 +20,8 @@ Then, run this line to make the server start:
 
 ```SET DEBUG=simple-meen-template:* & npm start```
 
+The server will be running on http://localhost:3000
+
 ***(optional)***: For development I recommend to have [nodemon](https://nodemon.io/) installed globally in your computer; so your server will be restarted when you change any **.js** file. You can do it running:
 
 ```npm install -g nodemon```
