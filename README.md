@@ -14,19 +14,19 @@ You need the have installed [**NodeJS**](https://nodejs.org) and [**NPM**](https
 
 Run this in terminal to install all the node packages and make this template ready to work.
 
->```npm install```
+```npm install```
 
 Then, run this line to make the server start:
 
->```SET DEBUG=simple-meen-template:* & npm start```
+```SET DEBUG=simple-meen-template:* & npm start```
 
 ***(optional)***: For development I recommend to have [nodemon](https://nodemon.io/) installed globally in your computer; so your server will be restarted when you change any **.js** file. You can do it running:
 
->```npm install -g nodemon```
+```npm install -g nodemon```
 
 For run the server with nodemon use this:
 
->```SET DEBUG=simple-meen-template:* & npm run nodemon```
+```SET DEBUG=simple-meen-template:* & npm run nodemon```
 
 ## Frameworks and Libraries Used
 
