@@ -1,6 +1,8 @@
 # Simple MEEN Template
 
-A Mongo-Express-EJS-Node Template.
+A Mongo-Express-EJS-Node Template to make a quick Model-View-Controller (MVC) app.
+
+This repository is intended to be easy to understand by beginners coders.
 
 ## Description
 
@@ -20,7 +22,7 @@ Then, run this line to make the server start:
 
 ```SET DEBUG=simple-meen-template:* & npm start```
 
-The server will be running on http://localhost:3000
+The server will be running on <http://localhost:3000>
 
 ***(optional)***: For development I recommend to have [nodemon](https://nodemon.io/) installed globally in your computer; so your server will be restarted when you change any **.js** file. You can do it running:
 
@@ -32,4 +34,31 @@ For run the server with nodemon use this:
 
 ## Frameworks and Libraries Used
 
-As a MEEN template, this template implements **NodeJS** for the runtime system, **ExpressJS** as server framework, **Embedded JavaScript (EJS)** for views elaboration and **MongooseJS** for database manipulation of MongoDB.
+As a MEEN template, it implements [**NodeJS**](https://nodejs.org) for the runtime system, [**ExpressJS**](http://expressjs.com/) as server framework, [**Embedded JavaScript (EJS)**](https://ejs.co/) for views elaboration and [**MongooseJS**](https://mongoosejs.com/) for database manipulation of MongoDB.
+
+Also we use other node packages like [**PassportJS**](http://www.passportjs.org/) for user login and user persistence. Below is links to documentation of each package that is used in the workflow.
+
+When you run "`npm install`" you install all the packages on table below; There is a link to each NPM package docs that display on the web.
+
+| Node-Package                                                                  | Version |
+| ---                                                                           | :---:   |
+| [connect-ensure-login](https://www.npmjs.com/package/connect-ensure-login)    | ^0.1.1  |
+| [connect-mongo](https://www.npmjs.com/package/connect-mongo)                  | ^3.0.0  |
+| [cookie-parser](https://www.npmjs.com/package/cookie-parser)                  | ~1.4.4  |
+| [debug](https://www.npmjs.com/package/debug)                                  | ~2.6.9  |
+| [ejs](https://www.npmjs.com/package/ejs)                                      | ~2.6.1  |
+| [express](https://www.npmjs.com/package/express)                              | ~4.16.1 |
+| [express-session](https://www.npmjs.com/package/express-session)              | ^1.16.2 |
+| [http-errors](https://www.npmjs.com/package/http-errors)                      | ~1.6.3  |
+| [mongoose](https://www.npmjs.com/package/mongoose)                            | ^5.7.1  |
+| [morgan](https://www.npmjs.com/package/morgan)                                | ~1.9.1  |
+| [passport](https://www.npmjs.com/package/passport)                            | ^0.4.0  |
+| [passport-local](https://www.npmjs.com/package/passport-local)                | ^1.0.0  |
+
+### ExpressJS
+
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+* [Basic routing](http://expressjs.com/en/starter/basic-routing.html)
+* [Routing](http://expressjs.com/en/guide/routing.html)
+* [API Reference](http://expressjs.com/en/4x/api.html)
